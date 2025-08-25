@@ -9,7 +9,7 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import App from './App';
+import App from './components/App';
 
 
 

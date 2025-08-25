@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+}
+.Contador{
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(214, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    font-size: 23px;
+}
