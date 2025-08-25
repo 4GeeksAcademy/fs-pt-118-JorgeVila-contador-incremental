@@ -1,14 +1,14 @@
 
 //create your first component
-const Contador = () => {
+const Contador = (props) => {
     return (
         <div >
-            <span>0</span>
-            <span>0</span>
-            <span>0</span>
-            <span>0</span>
-            <span>0</span>
-            <span>0</span>
+            <span>{props.Cmillar}</span>
+            <span>{props.Dmillar}</span>
+            <span>{props.Umillar}</span>
+            <span>{props.centenas}</span>
+            <span>{props.decenas}</span>
+            <span>{props.unidades}</span>
 
         </div>
     );
